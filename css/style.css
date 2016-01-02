@@ -1,0 +1,77 @@
+@CHARSET "ISO-8859-1";
+ 
+body
+{
+    background-color: #2e3436;
+    font-family: "Arial";
+    font-size: 11px;
+}
+ 
+div#container
+{
+    width: 1000px;
+    height: 600px;
+    margin: 0px auto;
+    border: 1px solid #e6eef6;
+    background-color: #ffffff;
+}
+ 
+div#container h1
+{
+    background-color: #ef2929;
+    margin: 0px;
+    padding: 8px;
+    font-family: "Arial";
+    font-weight: normal;
+    border: 1px solid #ef2929;
+}
+ 
+div#container fieldset
+{
+    margin: 20px;
+    border: 1px solid #98b9d0;
+}
+
+.container{
+    width: 60%;
+    height: 95%;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px transparent #666;
+    background: #ffffff;
+    background-image:url('img/cl.jpg');
+    background-size: 185%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    #add{
+        width: 20.7%;
+        height: 95%;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: :10px;
+        padding: 20px;
+        border: 1px solid #666;
+        background: #ffffff;
+        background-image:url('img/up.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #ac{
+        margin-top: 10px;
+    }
+    #ac,#down{
+    width:220px;
+    padding: 5px;
+    margin-left: 1130px;
+    text-align: center;
+    background-color: #efeecc;
+    border: 1px solid #c3c3c3;
+    }
+    #down {
+        padding: 50px;
+        display: none;
+    }
