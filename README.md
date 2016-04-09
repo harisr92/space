@@ -1,1 +1,1 @@
-Space is a project for online storage appliction using php. It is a sample project.
+Space is an online storage appliction using php. It is a sample project.
